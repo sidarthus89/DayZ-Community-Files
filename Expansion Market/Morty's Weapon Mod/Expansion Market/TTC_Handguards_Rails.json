@@ -1,13 +1,24 @@
 {
     "m_Version": 11,
-    "DisplayName": "",
+    "DisplayName": "Buttstocks",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-        {
-            "ClassName": "TTC_DMR_Hndguard",
+		{
+            "ClassName": "TTC_DMR_Bipod",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "TTC_DMR_AFG",
             "MaxPriceThreshold": 250,
             "MinPriceThreshold": 250,
             "SellPricePercent": -1,
@@ -16,10 +27,34 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"TTC_DMR_HndguardOD",
-				"TTC_DMR_HndguardDesert",
-				"TTC_DMR_HndguardSnow"
+				"TTC_DMR_AFG_Green",
+				"TTC_DMR_AFG_Tan"
 				]
+        },
+		{
+            "ClassName": "TTC_DMR_VFG",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 250,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_DMR_VFG_Green",
+				"TTC_DMR_VFG_Tan"
+				]
+        },
+		{
+            "ClassName": "TTC_AKMOD_AFG",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         },
 		{
             "ClassName": "TTC_AKMod_Hndguard",
@@ -53,17 +88,6 @@
 				]
         },
 		{
-            "ClassName": "TTC_Pistol_Light",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 250,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
             "ClassName": "TTC_SVT40_Bayonet",
             "MaxPriceThreshold": 250,
             "MinPriceThreshold": 250,
@@ -75,26 +99,30 @@
             "Variants": []
         },
 		{
-            "ClassName": "TTC_DMR_Bipod",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 500,
+            "ClassName": "TTC_Pistol_Light",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 250,
             "SellPricePercent": -1,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
-        },
-		{
-            "ClassName": "TTC_AKMOD_AFG",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 500,
+        }
+        {
+            "ClassName": "TTC_DMR_Hndguard",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 250,
             "SellPricePercent": -1,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TTC_DMR_HndguardOD",
+				"TTC_DMR_HndguardDesert",
+				"TTC_DMR_HndguardSnow"
+				]
         }
     ]
 }

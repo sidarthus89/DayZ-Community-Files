@@ -44,34 +44,6 @@
             "Variants": []
         },
 		{
-            "ClassName": "TTC_DMR_AFG",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"TTC_DMR_AFG_Green",
-				"TTC_DMR_AFG_Tan"
-				]
-        },
-		{
-            "ClassName": "TTC_DMR_VFG",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"TTC_DMR_VFG_Green",
-				"TTC_DMR_VFG_Tan"
-				]
-        },
-		{
             "ClassName": "TTC_M14Suppressor",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 500,
@@ -113,7 +85,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TTC_MCX_Spear_Suppressor_Black"
+				]
         },
 		{
             "ClassName": "TTC_Universal_Suppressor_TAVOR",
@@ -127,17 +101,6 @@
             "Variants": [
 				"TTC_Universal_Suppressor_TAVOR_Tan"
 				]
-        },
-		{
-            "ClassName": "TTC_MCX_Spear_Suppressor_Black",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }
