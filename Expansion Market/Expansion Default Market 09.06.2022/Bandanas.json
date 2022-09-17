@@ -20,30 +20,10 @@
                 "bandana_yellow",
                 "bandana_redpattern",
                 "bandana_blackpattern",
-                "bandana_polkapattern"
+                "bandana_polkapattern",
+				"bandana_camopattern",
+				"bandana_greenpattern",
             ]
-        },
-        {
-            "ClassName": "bandana_greenpattern",
-            "MaxPriceThreshold": 16,
-            "MinPriceThreshold": 8,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "bandana_camopattern",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }
